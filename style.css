@@ -1,0 +1,135 @@
+header {
+    background: #bbbbbb;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.Produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.Produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.Produtos li:hover {
+    border-color: yellow
+}
+
+.Produtos li:active {
+    border-color: chartreuse;;
+}
+
+.Produtos li:hover h2 {
+    font-size: 35px;
+}
+
+.Produtos li:hover p {
+    font-size: 22px;
+}
+
+.Produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Produto-Dinheiro {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+.Produto-Text {
+    font-size: 18px;
+}
+
+nav {
+    position: absolute;
+    top: 110px; 
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+    text-decoration: none;
+
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.Copyright {
+    color:  white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 25%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.texto-horario{
+    padding: 0 2px;
+    margin:  0 0 10px  ;
+}
+
+.Select {
+    margin:  10px 0 20px;
+    padding: 0  4px;
+}
+
